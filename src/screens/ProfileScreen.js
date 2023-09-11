@@ -47,7 +47,7 @@ function ProfileScreen() {
     if(password !== confirmPassword){
       setMessage('Password do not match!')
     }else{
-        console.log("update profile")
+      
       dispatch(updateUserProfile({
         'id': user._id,
         'name': name,
